@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body id="dark">
+    <main>
+      <header>
+        <h1>TODO</h1>
+        <img class="sun" src="images/icon-sun.svg" alt="sun" />
+      </header>
+      <div class="add">
+        <form action="">
+          <div class="circle">
+            <img class="check" src="images/icon-check.svg" alt="check" />
+          </div>
+          <input
+            type="text"
+            placeholder="Create a new todo..."
+            minlength="2"
+            required
+          />
+        </form>
+      </div>
+
+      <div class="cal">
+        <ul>
+          <li>
+            <div class="conta">
+              <div class="circle">
+                <img class="check" src="images/icon-check.svg" alt="check" />
+              </div>
+              <div class="textcon">
+                <p>Complete online JavaScript course</p>
+              </div>
+              <img class="cross" src="images/icon-cross.svg" alt="cross" />
+            </div>
+            <hr />
+          </li>
+          <li>
+            <div class="conta">
+              <div class="circle">
+                <img class="check" src="images/icon-check.svg" alt="check" />
+              </div>
+              <div class="textcon"><p>Jog around the park 3x</p></div>
+              <img class="cross" src="images/icon-cross.svg" alt="cross" />
+            </div>
+            <hr />
+          </li>
+          <li>
+            <div class="conta">
+              <div class="circle">
+                <img class="check" src="images/icon-check.svg" alt="check" />
+              </div>
+              <div class="textcon"><p>10 mintes meditation</p></div>
+              <img class="cross" src="images/icon-cross.svg" alt="cross" />
+            </div>
+            <hr />
+          </li>
+          <li>
+            <div class="conta">
+              <div class="circle">
+                <img class="check" src="images/icon-check.svg" alt="check" />
+              </div>
+              <div class="textcon"><p>Read for 1 hour</p></div>
+              <img class="cross" src="images/icon-cross.svg" alt="cross" />
+            </div>
+            <hr />
+          </li>
+          <li>
+            <div class="conta">
+              <div class="circle">
+                <img class="check" src="images/icon-check.svg" alt="check" />
+              </div>
+              <div class="textcon"><p>Pick up groceries</p></div>
+              <img class="cross" src="images/icon-cross.svg" alt="cross" />
+            </div>
+            <hr />
+          </li>
+          <li>
+            <div class="conta">
+              <div class="circle">
+                <img class="check" src="images/icon-check.svg" alt="check" />
+              </div>
+              <div class="textcon">
+                <p>Complete Todo App on Frontend Mentor</p>
+              </div>
+              <img class="cross" src="images/icon-cross.svg" alt="cross" />
+            </div>
+            <hr />
+          </li>
+        </ul>
+        <div class="selective">
+          <div class="items">
+            <span> items left</span>
+          </div>
+          <div class="btnsdis">
+            <button class="btn all">All</button>
+            <button class="btn active">Active</button>
+            <button class="btn completed">Completed</button>
+          </div>
+          <button class="btn clear">Clear Completed</button>
+        </div>
+      </div>
+      <div class="btnsdis1 dark">
+        <button class="btn all">All</button>
+        <button class="btn active">Active</button>
+        <button class="btn completed">Completed</button>
+      </div>
+    </main>
+    <span class="fg">Drag and drop to reorder</span>
+
+    <!-- <div class="attribution">
+      Todo
+
+    // Add dynamic number 
+    items left All Active Completed Clear Completed Drag and drop to reorder
+    list
+
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="index.js"></script>
+  </body>
+</html>
